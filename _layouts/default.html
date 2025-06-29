@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Wildfire Emergency? Find Nearby Shelter Now</h1>
+        <a href="{{ '/shelter_finder/' | relative_url }}"
+       class="button"
+       style="padding: 1rem 2rem; font-size: 1.2rem; background: #ff5722; color: white; border-radius: 12px; text-decoration: none;">
+       🔍 Find Shelter
+</a>
+
+
+      </div>
+    </header>
+
+<nav>
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/shelter_finder/' | relative_url }}">Shelter Finder</a>
+  <a href="{{ '/hazard_zones/' | relative_url }}">Hazard Zones</a>
+  <a href="{{ '/resources_support/' | relative_url }}">Resources & Support</a>
+  <a href="{{ '/safe_tips/' | relative_url }}">Stay Safe Tips</a>
+  <a href="{{ '/about_us/' | relative_url }}">About Us</a>
+</nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+
+    <footer>
+      <p>
+        <strong>Contact:</strong>
+        <a href="mailto:dtan3697@sdsu.edu">dtan3697@sdsu.edu</a> |
+        <a href="mailto:sjoshi2639@sdsu.edu">sjoshi2639@sdsu.edu</a> |
+        <a href="mailto:erosas9172@sdsu.edu">erosas9172@sdsu.edu</a>
+      </p>
+
+      <details style="margin-top: 1rem; font-size: 0.85em; color: #bbb">
+        <summary style="cursor: pointer; color: #4fc3f7">Image credits</summary>
+        <p>
+          • Shelter map board:
+          <a
+            href="https://unsplash.com/photos/a-park-map-sign-in-a-green-setting-jZxwpRvQsHQ"
+            >hardingferrent</a
+          >
+          on Unsplash<br />
+          • Fire hazard risk map:
+          <a
+            href="https://unsplash.com/photos/red-and-white-heart-shaped-lights-Z6oGNmpeoa0"
+            >Nick Romanov</a
+          >
+          on Unsplash<br />
+          • Emergency kits:
+          <a
+            href="https://unsplash.com/photos/white-and-red-textile-on-yellow-plastic-container-BXAnnFhEs4o"
+            >Jason Leung</a
+          >
+          on Unsplash<br />
+          • Emergency Kits:
+          <a
+            href="https://unsplash.com/photos/orange-white-and-black-bag-MaKsx8JNbiI"
+            >Mathurin NAPOLY
+          </a>
+          on Unsplash<br />
+          • Background image:
+          <a href="https://unsplash.com/@bailey_i">Issy Bailey</a> on Unsplash
+        </p>
+      </details>
+    </footer>
+
+  </body>
+</html>
