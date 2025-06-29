@@ -1,0 +1,108 @@
+/* Add styles for status indicators */
+.status-available { color: #28a745; font-weight: bold; }
+.status-limited { color: #ffc107; font-weight: bold; }
+.status-full { color: #dc3545; font-weight: bold; }
+
+/* Loading state for map */
+.map-loading {
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #6c757d;
+}
+
+/* Community Marker styling */
+.custom-community-marker {
+    text-align: center;
+}
+
+/* Hospital marker styling */
+.custom-hospital-marker {
+    text-align: center;
+}
+
+/* Wheather station Marker styling */
+.custom-weather-marker {
+    text-align: center;
+}
+
+/* Fire marker styling */
+.fire-marker {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Custom markers */
+.custom-shelter-marker {
+    text-align: center;
+}
+
+.custom-user-marker {
+    text-align: center;
+}
+
+/* Legend styling */
+.legend-control {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.legend-text {
+    font-size: 14px;
+}
+
+.filter-controls {
+    margin-top: 10px;
+}
+
+.filter-button {
+    padding: 5px 10px;
+    margin: 5px 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.filter-button.secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.filter-status {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+/* Search control */
+.search-control {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Status unknown for shelters */
+
+.status-unknown { 
+    color: #6c757d; font-weight: bold; 
+}
+
