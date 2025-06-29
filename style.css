@@ -71,11 +71,10 @@ section {
 
 .features {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
-  padding: 2rem;
-  background: #1e1e1e;
-  color: #ddd;
+  max-width: 970px;
+  margin: 0 auto;
 }
 
 .features .card {
