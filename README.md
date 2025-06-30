@@ -20,9 +20,10 @@ This website provides real-time emergency support for communities across Los Ang
 **Team S.A.F.E. (Smart Analytics for Fire Emergencies)**  
 Graduate students from the Big Data Analytics program at San Diego State University.
 
-- Swikriti Joshi – [LinkedIn](https://www.linkedin.com/in/swikritijoshi/)  
+
 - Aichu Tan – [LinkedIn](https://www.linkedin.com/in/aichutan/)  
 - Eduardo Rosas – [LinkedIn](https://www.linkedin.com/in/eddie-rosas-011184142/)
+- Swikriti Joshi – [LinkedIn](https://www.linkedin.com/in/swikritijoshi/)  
 
 ## Technologies Used
 
