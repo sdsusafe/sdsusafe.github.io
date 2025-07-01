@@ -135,6 +135,15 @@ footer summary {
   cursor: pointer;
 }
 
+footer details summary {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffd700; /* Gold color for Data Sources */
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
 footer summary:hover {
   color: #ffeb3b;
 }
