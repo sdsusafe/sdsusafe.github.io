@@ -10,12 +10,20 @@
     <header>
       <div class="header-content">
         <h1>Wildfire Emergency?<br />Find Nearby Shelter Now</h1>
-        <a href="{{ '/shelter_finder/' | relative_url }}"
-           class="button"
-           style="margin-top: 2rem; padding: 1rem 2rem; font-size: 1.2rem;
-                  background: rgba(50, 205, 50, 0.85); color: white;
-                  border-radius: 12px; text-decoration: none;">
-           🔍 Find Shelter
+        <a
+          href="{{ '/shelter_finder/' | relative_url }}"
+          class="button"
+          style="
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            background: rgba(50, 205, 50, 0.85);
+            color: white;
+            border-radius: 12px;
+            text-decoration: none;
+          "
+        >
+          🔍 Find Shelter
         </a>
       </div>
     </header>
@@ -24,13 +32,13 @@
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/shelter_finder/' | relative_url }}">Shelter Finder</a>
       <a href="{{ '/hazard_zones/' | relative_url }}">Hazard Zones</a>
-      <a href="{{ '/resources_support/' | relative_url }}">Resources & Support</a>
+      <a href="{{ '/resources_support/' | relative_url }}"
+        >Resources & Support</a
+      >
       <a href="{{ '/about_us/' | relative_url }}">About Us</a>
     </nav>
 
-    <main>
-      {{ content }}
-    </main>
+    <main>{{ content }}</main>
 
     <footer>
       <p>
@@ -40,35 +48,53 @@
         <a href="mailto:erosas9172@sdsu.edu">erosas9172@sdsu.edu</a>
       </p>
 
-    <details>
-  <summary>Image Credits</summary>
-  <p>
-    • Shelter map board:
-    <a href="https://unsplash.com/photos/a-park-map-sign-in-a-green-setting-jZxwpRvQsHQ">hardingferrent</a> on Unsplash<br />
-    • Fire hazard risk map:
-    <a href="https://unsplash.com/photos/red-and-white-heart-shaped-lights-Z6oGNmpeoa0">Nick Romanov</a> on Unsplash<br />
-    • Emergency kits:
-    <a href="https://unsplash.com/photos/white-and-red-textile-on-yellow-plastic-container-BXAnnFhEs4o">Jason Leung</a> on Unsplash<br />
-    • Background image:
-    <a href="https://unsplash.com/@bailey_i">Issy Bailey</a> on Unsplash
-  </p>
-</details>
+      <details style="margin-top: 1rem; font-size: 0.85em; color: #bbb">
+        <summary style="cursor: pointer; color: #4fc3f7">Image Credits</summary>
+        <p>
+          • Shelter map board:
+          <a
+            href="https://unsplash.com/photos/a-park-map-sign-in-a-green-setting-jZxwpRvQsHQ"
+            >hardingferrent</a
+          >
+          on Unsplash<br />
+          • Fire hazard risk map:
+          <a
+            href="https://unsplash.com/photos/red-and-white-heart-shaped-lights-Z6oGNmpeoa0"
+            >Nick Romanov</a
+          >
+          on Unsplash<br />
+          • Emergency kits:
+          <a
+            href="https://unsplash.com/photos/white-and-red-textile-on-yellow-plastic-container-BXAnnFhEs4o"
+            >Jason Leung</a
+          >
+          on Unsplash<br />
+          • Background image:
+          <a href="https://unsplash.com/@bailey_i">Issy Bailey</a> on Unsplash
+        </p>
+      </details>
 
-<details>
-  <summary>Data Sources</summary>
-  <ul>
-    <li>CAL FIRE – Fire Hazard Severity Zones (2023)</li>
-    <li>LA County GIS Open Data Portal – Census & Population Estimates (2020–2023)</li>
-    <li>National Interagency Fire Center – Wildfire Perimeters (2009–2025)</li>
-    <li>American Red Cross – Shelter Locations & Evacuation Checklists</li>
-    <li>South Coast AQMD – Air Quality Guidance</li>
-    <li>World Central Kitchen – Emergency Meal Locations</li>
-    <li>LA Regional Food Bank – Food Assistance</li>
-    <li>California Fire Foundation – Disaster Aid</li>
-    <li>California Community Foundation – Recovery Services</li>
-  </ul>
-</details>
-
+      <details style="margin-top: 1rem; font-size: 0.85em; color: #bbb">
+        <summary style="cursor: pointer; color: #ffd700">Data Sources</summary>
+        <ul style="margin-top: 0.5rem">
+          <li>CAL FIRE – Fire Hazard Severity Zones (2023)</li>
+          <li>
+            LA County GIS Open Data Portal – Census & Population Estimates
+            (2020–2023)
+          </li>
+          <li>
+            National Interagency Fire Center – Wildfire Perimeters (2009–2025)
+          </li>
+          <li>
+            American Red Cross – Shelter Locations & Evacuation Checklists
+          </li>
+          <li>South Coast AQMD – Air Quality Guidance</li>
+          <li>World Central Kitchen – Emergency Meal Locations</li>
+          <li>LA Regional Food Bank – Food Assistance</li>
+          <li>California Fire Foundation – Disaster Aid</li>
+          <li>California Community Foundation – Recovery Services</li>
+        </ul>
+      </details>
     </footer>
   </body>
 </html>
