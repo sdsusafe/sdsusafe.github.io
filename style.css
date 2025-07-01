@@ -124,14 +124,14 @@ footer strong {
 footer details {
   margin: 1rem auto;
   max-width: 960px;
-  text-align: left;
+  text-align: center;
   padding: 0 1rem;
 }
 
 footer summary {
   font-size: 1rem;
   font-weight: 600;
-  color: #ffd700; /* Gold color for both summaries */
+  color: #ffd700; 
   cursor: pointer;
 }
 
