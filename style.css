@@ -105,7 +105,7 @@ footer {
   text-align: center;
 }
 
-/* ✨ Fix this: target the real <footer> element */
+
 footer a {
   color: #4fc3f7; /* Light cyan */
   text-decoration: none;
@@ -119,6 +119,38 @@ footer a:hover {
 
 footer strong {
   color: #ffffff;
+}
+
+footer details {
+  margin: 1rem auto;
+  max-width: 960px;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+footer summary {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffd700; /* Gold color for both summaries */
+  cursor: pointer;
+}
+
+footer summary:hover {
+  color: #ffeb3b;
+}
+
+footer ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 0 1rem;
 }
 
 
